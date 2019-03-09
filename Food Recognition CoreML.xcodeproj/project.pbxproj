@@ -12,6 +12,9 @@
 		8FDC43AD22333039009DCAF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC43AB22333039009DCAF2 /* Main.storyboard */; };
 		8FDC43AF2233303D009DCAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC43AE2233303D009DCAF2 /* Assets.xcassets */; };
 		8FDC43B22233303D009DCAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC43B02233303D009DCAF2 /* LaunchScreen.storyboard */; };
+		8FDC43BA22333582009DCAF2 /* PhotoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC43B922333582009DCAF2 /* PhotoSource.swift */; };
+		8FDC43BC223339BF009DCAF2 /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC43BB223339BF009DCAF2 /* Food101.mlmodel */; };
+		8FDC43BE22333B55009DCAF2 /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC43BD22333B55009DCAF2 /* UIImage + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8FDC43AE2233303D009DCAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FDC43B12233303D009DCAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FDC43B32233303D009DCAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDC43B922333582009DCAF2 /* PhotoSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSource.swift; sourceTree = "<group>"; };
+		8FDC43BB223339BF009DCAF2 /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
+		8FDC43BD22333B55009DCAF2 /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				8FDC43AE2233303D009DCAF2 /* Assets.xcassets */,
 				8FDC43B02233303D009DCAF2 /* LaunchScreen.storyboard */,
 				8FDC43B32233303D009DCAF2 /* Info.plist */,
+				8FDC43B922333582009DCAF2 /* PhotoSource.swift */,
+				8FDC43BB223339BF009DCAF2 /* Food101.mlmodel */,
+				8FDC43BD22333B55009DCAF2 /* UIImage + Extension.swift */,
 			);
 			path = "Food Recognition CoreML";
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FDC43AA22333039009DCAF2 /* ViewController.swift in Sources */,
+				8FDC43BC223339BF009DCAF2 /* Food101.mlmodel in Sources */,
+				8FDC43BA22333582009DCAF2 /* PhotoSource.swift in Sources */,
+				8FDC43BE22333B55009DCAF2 /* UIImage + Extension.swift in Sources */,
 				8FDC43A822333039009DCAF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
